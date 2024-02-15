@@ -18,12 +18,15 @@ Output: Second Smallest : -1
 Explanation: Since there is only one element in the array, it is the largest and smallest element present in the array. There is no second largest or second smallest element present.
 */
 
+
+// ------------------------------------------------------------------------------------------------------------------
+
 // Method 1
 // Works only if there are no duplicates in an array
 // Time Complexity: O(n*log(n))
 // Space Complexity: O(1)
 
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 void getSecondMaxMin(vector<int> &arr,int n){
@@ -52,7 +55,8 @@ int main(){
     getSecondMaxMin(arr,n);
     return 0;
 }
-*/
+
+// -----------------------------------------------------------------------------------------------------------------
 
 // Method 2
 // Time Complexity: O(n)
