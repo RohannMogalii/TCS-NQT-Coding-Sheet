@@ -12,8 +12,12 @@ Explanation: Rotate the array to right by 3 elements.
 
 */
 
+// ---------------------------------------------------------------------------------------------------------------
+
 // Method 1
 // For Rotating Elements to right
+// TC: O(n)
+// SC: O(1)
 
 
 #include<bits/stdc++.h>
@@ -55,6 +59,7 @@ int main(){
     return 0;
 }
 
+// -----------------------------------------------------------------------------------------------------------------
 
 // For Rotating Elements to right
 
