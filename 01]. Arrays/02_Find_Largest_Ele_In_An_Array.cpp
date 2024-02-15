@@ -22,7 +22,7 @@ Explanation: 10 is the largest element in the array.
 // Time Complexity: O(n*log(n))
 // Space Complexoty: O(1)
 
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 int findMax(vector<int> &arr,int n){
@@ -41,7 +41,7 @@ int main(){
     cout<<"Largest Ele: "<<findMax(arr,n);
     return 0;
 }
-*/
+
 
 // Method 2
 // Time Complexity: O(n*log(n))
