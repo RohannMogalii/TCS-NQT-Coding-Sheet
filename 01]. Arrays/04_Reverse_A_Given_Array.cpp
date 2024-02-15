@@ -16,11 +16,13 @@ Explanation: Since the order of elements gets reversed the first element will oc
 
 */
 
+// -----------------------------------------------------------------------------------------------------------------
+
 // Method 1
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -53,7 +55,8 @@ int main(){
     reverseArr(arr,n);
     return 0;
 }
-*/
+
+// ----------------------------------------------------------------------------------------------------------------
 
 // Method 2
 // Time Complexity: O(n)
@@ -95,12 +98,13 @@ int main(){
     return 0;
 }
 
+// -----------------------------------------------------------------------------------------------------------------
 // Method 3
 // Using inbuilt Function
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -127,4 +131,3 @@ int main(){
     
     return 0;
 }
-*/
