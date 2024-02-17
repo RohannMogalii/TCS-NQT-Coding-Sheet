@@ -21,10 +21,10 @@ using namespace std;
 
 void findMedian(vector<int> &arr,int n){
     sort(arr.begin(),arr.end());
-    if(n%2!=0){
+    if(n%2!=0){   // if n is odd
         cout<<arr[(n/2)]<<endl;
     }
-    else{
+    else{          // if n is even
         int first= (n/2)-1;
         int second = (n/2);
         cout<<(double)(arr[first]+arr[second])/2<<endl;
