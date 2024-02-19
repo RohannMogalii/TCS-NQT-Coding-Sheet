@@ -14,7 +14,10 @@ Output: 5
 Explanation: 5 is the smallest element in the array.
 */
 
-// Method 1
+// ------------------------------------------------------------------------------------------------------------
+
+
+// Method 1                         [  Brute Force Approach  ]
 // Time Complexity: O(n*log(n))
 // Space Complexoty: O(1)
 
@@ -38,8 +41,10 @@ int main(){
     return 0;
 }
 
+// ------------------------------------------------------------------------------------------------------------
 
-// Method 2
+
+// Method 2                  [  Optimal Appraoch   ]
 // Time Complexity: O(n)
 // Space Complexoty: O(1)
 
