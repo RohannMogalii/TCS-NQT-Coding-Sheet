@@ -18,7 +18,10 @@ Explanation: 10 is the largest element in the array.
 
 */
 
-// Method 1
+// ----------------------------------------------------------------------------------------------------------
+
+
+// Method 1                            [  Brute Force Approach  ]
 // Time Complexity: O(n*log(n))
 // Space Complexoty: O(1)
 
@@ -42,8 +45,9 @@ int main(){
     return 0;
 }
 
+// ------------------------------------------------------------------------------------------------------
 
-// Method 2
+// Method 2                            [  Optimal Approach  ]
 // Time Complexity: O(n*log(n))
 // Space Complexoty: O(1)
 
