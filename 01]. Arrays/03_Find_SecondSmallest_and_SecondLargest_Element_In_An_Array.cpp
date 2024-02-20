@@ -21,7 +21,7 @@ Explanation: Since there is only one element in the array, it is the largest and
 
 // ------------------------------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                                           [  Brute Force Approach  ]
 // Works only if there are no duplicates in an array
 // Time Complexity: O(n*log(n))
 // Space Complexity: O(1)
@@ -58,7 +58,7 @@ int main(){
 
 // -----------------------------------------------------------------------------------------------------------------
 
-// Method 2
+// Method 2                           [  Optimal Approach  ]
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
