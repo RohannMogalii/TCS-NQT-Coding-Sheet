@@ -12,7 +12,7 @@ Output: 2 4 5 6 20 15 9 8
 
 // ----------------------------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                                 [  Optimal Approach  ]
 // Sort the array in ascendng order
 // Print first half
 // and then print second half in reverse order
