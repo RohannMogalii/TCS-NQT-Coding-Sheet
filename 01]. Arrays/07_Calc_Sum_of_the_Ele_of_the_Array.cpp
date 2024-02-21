@@ -13,7 +13,7 @@ Explanation: Sum of all the elements is 1+2+1+1+5+1 = 11
 
 // ---------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                       [  Optimal Approach  ]
 // Using a sum variable
 // TC: O(n)
 // SC: O(1)
@@ -44,6 +44,8 @@ int main(){
 
 // Method 2
 // Using formula
+// TC: O(n)
+// SC: O(1)
 
 #include<bits/stdc++.h>
 using namespace std;
