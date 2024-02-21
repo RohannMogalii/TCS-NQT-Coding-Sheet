@@ -18,7 +18,7 @@ Explanation: Since the order of elements gets reversed the first element will oc
 
 // -----------------------------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                          [  Brute Force Approach  ] 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
@@ -58,7 +58,7 @@ int main(){
 
 // ----------------------------------------------------------------------------------------------------------------
 
-// Method 2
+// Method 2                       [  Optimal Approach  ]  
 // Time Complexity: O(n)
 // Space Complexity: O(1)
 
@@ -75,9 +75,7 @@ void printReversedArr(vector<int> &arr,int n){
 void reverseArr(vector<int> &arr,int n){
     int p1=0;
     int p2=n-1;
-    // for(int i=0;i<=sqrt(n);i++){
-    //     swap(arr[i],arr[n-1-i]);
-    // }
+    
     while(p1<p2){
         swap(arr[p1],arr[p2]);
         p1++;p2--;
@@ -99,7 +97,8 @@ int main(){
 }
 
 // -----------------------------------------------------------------------------------------------------------------
-// Method 3
+
+// Method 3                   [  Optimal Approach  ]  
 // Using inbuilt Function
 // Time Complexity: O(n)
 // Space Complexity: O(1)
