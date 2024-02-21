@@ -14,8 +14,10 @@ Explanation: Rotate the array to right by 3 elements.
 
 // ---------------------------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                          [  optimal Approach  ]
 // For Rotating Elements to right
+// Reversal technique
+
 // TC: O(n)
 // SC: O(1)
 
@@ -50,9 +52,9 @@ int main(){
     cin>>k;
     
     rightRotateArr(arr,n,k);
-    cout<<"According to Right rotation: "<<" ";
+    cout<<"Array after Right rotation: "<<" ";
     for(int i=0;i<n;i++){
-        cout<<arr[i];
+        cout<<arr[i]<<" ";
     }
     cout<<endl;
     
@@ -80,6 +82,7 @@ void leftRotateArr(vector<int>&arr,int n,int k){
     reverse(arr.begin(),arr.begin()+k);
     reverse(arr.begin()+k,arr.end());
     reverse(arr.begin(),arr.end());
+    
 }
 int main(){
     int n;
@@ -94,9 +97,9 @@ int main(){
     
     leftRotateArr(arr,n,k);
     
-    cout<<"According to Left rotation: "<<" ";
+    cout<<"Array after Left rotation: "<<" ";
     for(int i=0;i<n;i++){
-        cout<<arr[i];
+        cout<<arr[i]<<" ";
     }
     cout<<endl;
     
