@@ -23,7 +23,7 @@ Explanation: 2 occurs 3 times in the array
 // ----------------------------------------------------------------------------------------------------------------
 
 
-// Method 1
+// Method 1                                                     [  Brute Force Approach  ]
     // Make a visited array of type boolean.
     // Use the first loop to point to an element of the array.
     // Initialize the variable count to 1.
@@ -69,7 +69,7 @@ int main(){
 
 // -------------------------------------------------------------------------------------------------------------
 
-// Method 2
+// Method 2                                      [  Optimal Approach  ]
 // Using Map
 // TC: O(n)
 // SC: O(n)
