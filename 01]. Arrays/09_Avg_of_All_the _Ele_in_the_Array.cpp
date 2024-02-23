@@ -14,7 +14,7 @@ Explanation: Average is the sum of all the elements divided by number of element
 
 // -------------------------------------------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                                    [ Optimal Approach ]
 // TC: O(n)
 // SC: O(1)
 
