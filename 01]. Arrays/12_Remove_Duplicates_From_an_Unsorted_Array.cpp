@@ -15,7 +15,7 @@ Explanation: Removed all the duplicate elements
 
 // -------------------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                                  [  Optimal Approach  ]
 //  Using map
 // TC: O(n) Reason:Iteration in array , searching hash table
 // SC: O(n) Reason : Using hashing
