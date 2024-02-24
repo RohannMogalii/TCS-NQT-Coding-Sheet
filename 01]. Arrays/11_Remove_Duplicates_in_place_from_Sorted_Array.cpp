@@ -20,7 +20,7 @@ Explanation: Total number of unique elements are 4, i.e[1,2,3,4] and Therefore r
 
 // -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-// Method 1 (Optimal Approach)
+// Method 1                           [  Optimal Approach  ]
 // TC: O(n)
 // SC: O(1)
 
