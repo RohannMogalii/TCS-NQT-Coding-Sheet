@@ -21,7 +21,7 @@ Explanation:
 
 // ------------------------------------------------------------------------------
 
-// Method 1
+// Method 1                  [  Optimal Approach  ]
 // Using maps
 // TC: O(n)
 // SC: O(n)
