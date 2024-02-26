@@ -22,7 +22,7 @@ Explanation:
 
 // -------------------------------------------------------------------------------------------------------
 
-// Method 1    [  Optimal Solution   ]  [  Kadane's Algorithm  ]
+// Method 1                    [  Optimal Solution   ]     [  Kadane's Algorithm  ]
 // TC: O(N)
 // SC: O(1)
 
@@ -62,7 +62,7 @@ int main(){
 
 // -----------------------------------------------------------------------------------------------------
 
-// Method 2     [   Better Approach  ]
+// Method 2                                  [   Better Approach  ]
 // TC: O(n2) using two loops
 // SC: O(n)
 
@@ -101,7 +101,7 @@ int main(){
 
 // ---------------------------------------------------------------------------------------------------
 
-// Method 3   [   Brute Force Approach ]
+// Method 3                                     [   Brute Force Approach ]
 // TC: O(n3) using 3 loops
 // SC: O(1) 
 
