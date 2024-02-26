@@ -13,7 +13,9 @@ Explanation: Since (1,5) and (2,4) are symmetric pairs and (5,1) and (4,2) are s
 
 */
 
-// Method 1
+// -------------------------------------------------------------------------------------------------------------
+
+// Method 1                                        [  Brute Force Approach  ]
 // Using two Loops
 // One loop for traversing the pair and
 // second loop for finding the symmetric pairs
@@ -44,7 +46,7 @@ int main(){
 // --------------------------------------------------------------------------------------------------------------
 
 
-// Method 2             (OPTIMAL approach)
+// Method 2             [  OPTIMAL approach  ]
 // Using Hashmap
 // TC: O(n)
 // SC: O(n)
